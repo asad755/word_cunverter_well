@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import inquirer from "inquirer"
 // declear constent
 const answers: {
@@ -14,6 +12,6 @@ const answers: {
 const words = answers.Sentence.trim().split(" ")
 // print the array of the words to the console
 
-//console.log(`Your sentence has ${words.length} words`)
+console.log(`Your sentence has ${words.length} words`)
 
-console.log(words);
+//console.log(words);

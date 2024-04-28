@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 // wordCounter.ts
 import readline from 'readline';
 
