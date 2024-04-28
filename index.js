@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import inquirer from "inquirer";
 // declear constent
 const answers = await inquirer.prompt([
@@ -9,5 +10,5 @@ const answers = await inquirer.prompt([
 ]);
 const words = answers.Sentence.trim().split(" ");
 // print the array of the words to the console
-console.log(`Your sentence has ${words.length} words`);
-//console.log(words);
+//console.log(`Your sentence has ${words.length} words`)
+console.log(words);

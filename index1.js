@@ -1,3 +1,4 @@
+#!/usr/bin/env node 
 // wordCounter.ts
 import readline from 'readline';
 // Function to count words and characters
